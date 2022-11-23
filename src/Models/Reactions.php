@@ -61,7 +61,6 @@ class Reactions extends Resources {
     protected $searchable = array(
         'foreign_table',
         'foreign_id',
-        'comment_id',
         'type',
         'reaction',
     );
@@ -69,7 +68,6 @@ class Reactions extends Resources {
     protected $fillable = array(
         'foreign_table',
         'foreign_id',
-        'comment_id',
         'type',
         'reaction',
     );
